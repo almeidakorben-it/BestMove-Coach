@@ -8,7 +8,21 @@ https://bestmove-coach-459718744467.us-west2.run.app/
 </p>
 
 <hr>
-
+<ul>
+<h5>Core Functional Modules<hr/5>
+<li>Interactive Chessboard: Includes a highly responsive, draggable chess board with complete support for move validations, pawn promotion defaults, real-time board flipping, undo actions, and quick board resets.</li>
+<li>Engine Analysis Engine: Connects to the Stockfish API using a dual-connectivity protocol:</li>
+<li>WebSocket streaming provides progressive depth updates and candidate paths in real time.</li>
+<li>HTTP POST fallback guarantees service resilience in strict firewall environments.</li>
+<li>Evaluation Bar: An elegant sidebar overlaying the board that displays White's win percentage on the bottom and Black's on the top, dynamically aligning its orientation to match whichever side is currently being played.</li>
+<li>Multi-Line Variants Tracker: Supports the expansion of up to 5 parallel Stockfish candidate lines. Each variant displays its candidate moves, corresponding centipawn or mate evaluations, and a click-to-play continuation sequence.</li>
+<li>Export and Import Suite: Fully supports copyable FEN positions, standardized PGN list exportations, and shareable encoded URL links to restore exact positions instantly.</li>
+<li>Interactive Training & Coach Systems:</li>
+<li>Training Mode: Hides the Stockfish best-moves and evaluation metrics. The user is prompted to guess the tactical move, receiving instant visual correctness feedback.</li>
+<li>Blunder Check: Tracks the user's active game. If a played move drops the win expectation compared to Stockfish's top recommendation, the coach renders a tactical blunder report highlighting the drop percentage and suggested alternatives.</li>
+<li>Find Mate Mode: Directs the engine's focus toward forced checkmating sequences, backed by interactive classic preset puzzles (such as Morphy's Opera Mate and Smothered Mate) to practice critical mating mechanics.</li>
+<li>Saved Sessions: Utilizes local storage to save, name, load, or delete progress seamlessly without losing historical positions</li>
+</ul>
 <h2>Features</h2>
 
 <h3>Interactive Chess Board</h3>
