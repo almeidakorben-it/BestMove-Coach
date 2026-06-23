@@ -1,0 +1,6 @@
+{
+  "name": "BestMove Coach",
+  "description": "Interactive chess analysis coach with live Stockfish engine evaluations, FEN/PGN import/export, tactical mode overlays, and training systems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
