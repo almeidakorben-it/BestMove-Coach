@@ -70,14 +70,6 @@ https://bestmove-coach-459718744467.us-west2.run.app/
 
 <pre><code>wss://chess-api.com/v1</code></pre>
 
-<h3>Example Request</h3>
-
-<pre><code>{
-  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
-}</code></pre>
-
-<h3>Example Response</h3>
-
 <pre><code>{
   "bestmove": "e2e4",
   "eval": 0.73,
